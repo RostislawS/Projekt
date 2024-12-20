@@ -1,0 +1,46 @@
+/* Стили для формы обратной связи */
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contact-form .btn-primary {
+    background-color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #f4cb51;
+    color: #333;
+}
+
+/* Стили для контактной информации */
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+    color: #555;
+}

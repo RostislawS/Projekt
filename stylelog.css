@@ -1,0 +1,83 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.img {
+    width: 62px;
+    float: left;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f4cb51;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+    border-bottom: 3px solid red;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+form {
+    margin: 50px auto;
+    width: 300px;
+    text-align: center;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Расстояние между кнопками */
+    margin-top: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #f4cb51;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #f4cb51;
+}
+
+a button {
+    background-color: #f4cb51;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a button:hover {
+    background-color: #f4cb51;
+}

@@ -1,0 +1,185 @@
+/* Общие стили для навигации */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    height: 60px;
+}
+
+/* Логотип */
+.img {
+    width: 62px;
+    height: 62px;
+    object-fit: cover;
+}
+/* Стили для кнопки "Войти" */
+.topnav .btn.login {
+    background-color: #f4cb51;
+    color: #333;
+    border: 2px solid #f4cb51;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.topnav .btn.login:hover {
+    background-color: #333;
+    color: #f4cb51;
+    border-color: #f4cb51;
+}
+
+/* Стили для ссылок */
+.topnav a {
+    color: #f4cb51;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid red;
+    color: #fff;
+}
+
+.topnav a.active {
+    border-bottom: 3px solid red;
+}
+
+
+
+/* Стили для статьи */
+.news-article .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-article .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.news-article .card-body {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.news-article .card-title {
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+}
+
+.news-article .card-text {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.news-article .btn-primary {
+    background-color: #f4cb51;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.news-article .btn-primary:hover {
+    background-color: #333;
+    color: #f4cb51;
+}
+
+/* Центрирование заголовка */
+h1 {
+    font-size: 36px;
+    color: #333;
+    font-weight: bold;
+}
+
+
+/* Стиль для страницы статьи */
+.article-content {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+/* Стили для заголовков статьи */
+h1 {
+    font-size: 36px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-size: 28px;
+    color: #444;
+    margin-top: 20px;
+}
+
+/* Стили для текста статьи */
+.article-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Стили для изображений в статье */
+.article-content img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Стили для кнопок */
+.btn-secondary {
+    background-color: #f4cb51;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.btn-secondary:hover {
+    background-color: #333;
+    color: #f4cb51;
+}
+
+.btn-primary {
+    background-color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #f4cb51;
+    color: #333;
+}
+
+/* Центрирование кнопок */
+.text-center {
+    text-align: center;
+}
+
